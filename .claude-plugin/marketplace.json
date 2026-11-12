@@ -1,0 +1,14 @@
+{
+  "name": "fabaomega-mods",
+  "owner": {
+    "name": "Fabao"
+  },
+  "plugins": [
+    {
+      "name": "auto-model",
+      "source": "./",
+      "description": "Escolhe sozinho o modelo e o esforço de cada pedido no Claude Code e mostra quanto você economizou."
+    }
+  ],
+  "description": "Mods em português para o Claude Code, feitos por Fabao."
+}
