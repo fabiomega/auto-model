@@ -19,7 +19,7 @@ Leva uns 10 minutos. Você só faz isso **uma vez**.
 
 ### Passo 1 · Aceitar o convite do GitHub
 1. Tenha uma conta gratuita no [GitHub](https://github.com/signup).
-2. Abra o e-mail do convite do **FabaoMega** e clique em **Accept invitation** (ou entre em github.com/FabaoMega/auto-model e aceite).
+2. Abra o e-mail do convite para **fabiomega/auto-model** e clique em **Accept invitation** (ou entre em github.com/fabiomega/auto-model e aceite).
 
 ### Passo 2 · Deixar o seu computador entrar no GitHub (Windows)
 O Claude precisa do seu login do GitHub para baixar o mod, porque o repositório é privado.
@@ -44,12 +44,12 @@ Mac: troque o passo 2 por `brew install gh`. O resto é igual.
 ### Passo 3 · Instalar no Claude
 **No app do Claude (aba Code):**
 1. Clique no **+** ao lado da caixa de mensagem e depois em **Plugins**.
-2. Clique em **Add marketplace**, digite `FabaoMega/auto-model` e confirme.
+2. Clique em **Add marketplace**, digite `fabiomega/auto-model` e confirme.
 3. Clique em **Add plugin** e escolha **auto-model**.
 
 **No terminal (Claude Code):**
 ```
-/plugin install auto-model --marketplace FabaoMega/auto-model
+/plugin install auto-model --marketplace fabiomega/auto-model
 ```
 Responda `y` à pergunta de adicionar o marketplace e escolha o escopo de usuário (**user**).
 
