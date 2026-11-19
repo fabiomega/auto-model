@@ -9,39 +9,15 @@ de cada pedido, para você gastar menos do seu limite sem perder qualidade. Tudo
 - **Você manda:** `!haiku`, `!sonnet` ou `!opus` no começo de um pedido forçam o modelo naquele pedido.
 - **Prévia:** `/automodelo prever <texto>` mostra o que o mod faria, sem enviar nada.
 
-> Este repositório é **privado**: só entra quem recebeu convite. Não compartilhe o acesso.
+> Repositório **público**: qualquer pessoa pode baixar e instalar, sem convite e sem login no GitHub.
 
 ---
 
 ## Como instalar (passo a passo para leigos)
 
-Leva uns 10 minutos. Você só faz isso **uma vez**.
+Leva uns 5 minutos. Você só faz isso **uma vez**.
 
-### Passo 1 · Aceitar o convite do GitHub
-1. Tenha uma conta gratuita no [GitHub](https://github.com/signup).
-2. Abra o e-mail do convite para **fabiomega/auto-model** e clique em **Accept invitation** (ou entre em github.com/fabiomega/auto-model e aceite).
-
-### Passo 2 · Deixar o seu computador entrar no GitHub (Windows)
-O Claude precisa do seu login do GitHub para baixar o mod, porque o repositório é privado.
-
-1. Abra o menu Iniciar, digite **PowerShell** e abra.
-2. Instale a ferramenta do GitHub (se pedir permissão, aceite):
-   ```
-   winget install --id GitHub.cli -e
-   ```
-3. **Feche o PowerShell e abra de novo.**
-4. Faça o login. Escolha **GitHub.com**, depois **HTTPS**, depois **Login with a web browser**, copie o código que aparecer e confirme no navegador:
-   ```
-   gh auth login
-   ```
-5. Ligue o login ao Git:
-   ```
-   gh auth setup-git
-   ```
-
-Mac: troque o passo 2 por `brew install gh`. O resto é igual.
-
-### Passo 3 · Instalar no Claude
+### Passo 1 · Instalar no Claude
 **No app do Claude (aba Code):**
 1. Clique no **+** ao lado da caixa de mensagem e depois em **Plugins**.
 2. Clique em **Add marketplace**, digite `fabiomega/auto-model` e confirme.
@@ -53,7 +29,7 @@ Mac: troque o passo 2 por `brew install gh`. O resto é igual.
 ```
 Responda `y` à pergunta de adicionar o marketplace e escolha o escopo de usuário (**user**).
 
-### Passo 4 · Reiniciar e testar
+### Passo 2 · Reiniciar e testar
 1. Feche o Claude por completo (ícone perto do relógio, botão direito, **Sair**) e abra de novo.
 2. Numa conversa nova, mande uma mensagem qualquer. Se o app perguntar se pode ligar os mods, aceite.
 3. Digite **sozinho** na caixa de mensagem (sem nenhum outro texto na mesma mensagem):
@@ -89,7 +65,7 @@ Digite cada comando **sozinho** na mensagem.
 ## Problemas comuns
 | Problema | O que fazer |
 | --- | --- |
-| "Repository not found" ao instalar | Aceite o convite (passo 1) e refaça o login (`gh auth login`, `gh auth setup-git`) |
+| "Repository not found" ao instalar | Confira se digitou `fabiomega/auto-model` certinho, sem espaço |
 | `/automodelo` não faz nada | O comando tem que ser a única coisa da mensagem |
 | Nada aparece depois de instalar | Saia do Claude pelo ícone perto do relógio e abra de novo |
 | A faixa sumiu | Clique em **Ocultar** só esconde até o próximo pedido; mande outra mensagem |
